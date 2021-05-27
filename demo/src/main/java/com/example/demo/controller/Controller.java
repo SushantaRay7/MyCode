@@ -26,5 +26,9 @@ public class Controller {
 		
 		return "Employee added with the name "+e.getName();
 	}
+	
+	public Object add(Object o) {
+		return o;
+	}
 
 }
