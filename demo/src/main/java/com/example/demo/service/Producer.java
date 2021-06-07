@@ -9,7 +9,7 @@ import com.example.demo.entity.Employee;
 @Service
 public class Producer {
 	
-	public static final String topic = "mytopic";
+	public static final String topic = "myTopic";
 	
 	@Autowired
 	private KafkaTemplate<String, Employee>  kafkaTemplate;
