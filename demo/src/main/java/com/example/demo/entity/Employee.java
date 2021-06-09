@@ -1,7 +1,13 @@
 package com.example.demo.entity;
 
-public class Employee {
+import java.io.Serializable;
 
+public class Employee implements Serializable{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -6319329269410946578L;
 	private Integer id;
 	private String name;
 	private String salary;
